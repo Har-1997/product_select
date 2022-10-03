@@ -1,0 +1,27 @@
+.footer{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    background-color: grey;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    bottom: -145px;
+    height: 145px;
+}
+
+.inFooter{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footerText{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.contF{
+    color: white;
+}

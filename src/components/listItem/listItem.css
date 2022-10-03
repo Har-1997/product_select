@@ -1,0 +1,28 @@
+.listItem{
+    border: 2px solid lightgray;
+    width: 50%;
+    display: flex;
+    min-height: 150px;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .listItem img {
+    width: 150px;
+    object-fit: cover;
+  }
+  
+  .prodInfo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .prodInfo p{
+    margin: 1px 0;
+  }
+  
+  .seeAll{
+    cursor: pointer;
+    font-weight: 700;
+  }
